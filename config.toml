@@ -1,0 +1,26 @@
+[plugin]
+enabled = true
+config_version = "0.1.0"
+
+# 优化指令：告诉 LLM 从什么方向去分析人设
+# 比如 "语气再活泼一点" "减少颜文字" "多加入一些专业感"
+# 留空则使用默认的分析框架
+optimize_prompt = "这里是占位提示词"
+
+# 定时执行时间（24h 格式 HH:MM，如 03:00）。留空禁用定时
+scheduled_time = ""
+
+# 分析的默认时间范围（小时）
+default_hours = 24
+
+# 每个聊天流最多拉取的消息数
+max_messages_per_stream = 100
+
+# 最多分析的聊天流数（0 = 不限制）
+max_streams = 0
+
+# LLM 模型名，留空使用默认模型
+model = "planner"
+
+# 建议文件的输出目录（相对插件目录）
+storage_dir = "suggestions"

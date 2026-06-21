@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "PersonaIter 人设迭代器",
+  "description": "分析聊天记录，追踪人设一致性，生成人设优化建议文件。不自动修改任何配置。",
+  "author": {
+    "name": "RIEZ-ON/clfr41",
+    "url": "https://github.com/clfr41"
+  },
+  "license": "AGPL-3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/clfr41/mai-persona-iter",
+    "homepage": "https://github.com/clfr41/mai-persona-iter",
+    "documentation": "https://github.com/clfr41/mai-persona-iter",
+    "issues": "https://github.com/clfr41/mai-persona-iter/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.0.0"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "capabilities": [
+    "command",
+    "tool"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "id": "persona-iter"
+}
